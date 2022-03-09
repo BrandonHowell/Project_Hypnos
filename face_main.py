@@ -29,7 +29,7 @@ def faceMesh():
     indexToggle = False
     soundPlaying = False
     alertEnabled = True
-    alertFile = {'alert':"default.mp3"}
+    alertFile = {'alert':"alerts/default.mp3"}
     occurances = 0
     pTime = 0
     right_eye_indicies = [155,158,160,33,144,153]
