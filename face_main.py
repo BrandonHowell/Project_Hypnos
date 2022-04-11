@@ -13,6 +13,8 @@ import cv2
 import mediapipe as mp
 import keyboard
 import time
+import sqlite3
+import json
 
 mp_face_detection = mp.solutions.face_detection
 mp_face_mesh = mp.solutions.face_mesh
@@ -180,7 +182,7 @@ def drawEyeIndicies(image,rightEye,leftEye, showIndexs):
     cv2.line(image, (leftEye[0][0],leftEye[0][1]),(leftEye[3][0],leftEye[3][1]), (255,255,255), 1)
     cv2.line(image, (leftEye[1][0],leftEye[1][1]),(leftEye[5][0],leftEye[5][1]), (255,255,255), 1)
     cv2.line(image, (leftEye[2][0],leftEye[2][1]),(leftEye[4][0],leftEye[4][1]), (255,255,255), 1)    
-#TEstComment
+
 #Retrieves and converts eye index locations to (x,y) coordinates on screen
 def getEyeCoordinates(image, results, eye):
     eye_coords = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]
