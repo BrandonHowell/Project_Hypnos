@@ -1,2 +1,9 @@
+
 .vscode
+.venv
 env
+data
+dist
+build
+GUI_Test.py
+eye_detect.spec

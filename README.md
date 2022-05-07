@@ -8,8 +8,8 @@ The goal of this project is to create an application that detects when an indivi
 - Aquire Eye Lid Indexes ✔️
 - Get Eye Aspect Ratio (EAC) ✔️
 - Detect closed/partialy-closed eyes ✔️
-- Create GUI Process and remove debug/stat visuals from camera feed
-- Track data to sqlite database - [IN PROGRESS]
+- Create GUI Process and remove debug/stat visuals from camera feed ✔️
+- Track data to sqlite database ✔️
 - Create GUI chart portraying collected data
   - Daily Occurences
   - Weekly Bar Graph
